@@ -8,7 +8,7 @@ Task1) How many TCP ports are open on the machine?
 2
 ```
 
-![nmap (2).png](../../../../../_resources/nmap%20%282%29.png)
+![nmap (2).png](../../../_resources/nmap%20%282%29.png)
 
 Task2) Which service is running on port 27017 of the remote host? 
 
@@ -28,7 +28,7 @@ Task4)  What is the command name for the Mongo shell that is installed with the 
 mongo
 ```
 
-![mongodb-clients.png](../../../../../_resources/mongodb-clients.png)
+![mongodb-clients.png](../../../_resources/mongodb-clients.png)
 
 Task5) What is the command used for listing all the databases present on the MongoDB server? (No need to include a trailing ;) 
 
@@ -37,10 +37,10 @@ show dbs
 ```
 
 
-![mongodb-connect.png](../../../../../_resources/mongodb-connect.png)
+![mongodb-connect.png](../../../_resources/mongodb-connect.png)
 
 
-![show-dbs.png](../../../../../_resources/show-dbs.png)
+![show-dbs.png](../../../_resources/show-dbs.png)
 
 
 
@@ -52,7 +52,7 @@ show collections
 ```
 
 
-![show-collections.png](../../../../../_resources/show-collections.png)
+![show-collections.png](../../../_resources/show-collections.png)
 
 
 ## Flag
@@ -64,5 +64,4 @@ db.flag.find().pretty()
 ```
 
 
-![db-flag.png](../../../../../_resources/db-flag.png)
-
+![db-flag.png](../../../_resources/db-flag.png)

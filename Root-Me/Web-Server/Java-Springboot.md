@@ -28,16 +28,16 @@ Look in "47. Endpoints > heapdump" here : https://repository.root-me.org/Exploit
 
 
 
-![heapdump.png](../../../../_resources/heapdump.png)
+![heapdump.png](../../_resources/heapdump.png)
 
 
-![heapdump-download.png](../../../../_resources/heapdump-download.png)
+![heapdump-download.png](../../_resources/heapdump-download.png)
 
 
 Look inside the heapdump (VisualVM) : 
 
 
-![gzip.png](../../../../_resources/gzip.png)
+![gzip.png](../../_resources/gzip.png)
 
 
-![flag (3).png](../../../../_resources/flag%20%283%29.png)
+![flag (3).png](../../_resources/flag%20%283%29.png)

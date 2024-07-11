@@ -14,7 +14,7 @@ Task2)  How many TCP ports are open on the remote host?
 1
 ```
 
-![nmap (4).png](../../../../../_resources/nmap%20%284%29.png)
+![nmap (4).png](../../../_resources/nmap%20%284%29.png)
 
 Task3)  What is the protocol version used by rsync on the remote machine? 
 
@@ -40,7 +40,7 @@ None
 ```
 
 
-![no-passwd.png](../../../../../_resources/no-passwd.png)
+![no-passwd.png](../../../_resources/no-passwd.png)
 
 
 Task6) What is the option to only list shares and files on rsync? (No need to include the leading -- characters)
@@ -54,10 +54,9 @@ $ rsync --list-only <target>
 list-only
 ```
 
-![list-only.png](../../../../../_resources/list-only.png)
+![list-only.png](../../../_resources/list-only.png)
 
 ## Flag
 
 
-![flag (2).png](../../../../../_resources/flag%20%282%29.png)
-
+![flag (2).png](../../../_resources/flag%20%282%29.png)

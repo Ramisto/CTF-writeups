@@ -32,7 +32,7 @@ nmap
 ```
 
 
-![nmap (1).png](../../../../../_resources/nmap%20%281%29.png)
+![nmap (1).png](../../../_resources/nmap%20%281%29.png)
 
 
 Task 6) What service do we identify on port 23/tcp during our scans?
@@ -48,11 +48,10 @@ root
 ```
 
 
-![telnet.png](../../../../../_resources/telnet.png)
+![telnet.png](../../../_resources/telnet.png)
 
 
 ## Flag
 
 
-![flag.png](../../../../../_resources/flag.png)
-
+![flag.png](../../../_resources/flag.png)

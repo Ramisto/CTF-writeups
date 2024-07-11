@@ -31,13 +31,13 @@ http://traverse.thm/server-status
 Service on 80/tcp : 
 
 
-![website.png](../../../../_resources/website.png)
+![website.png](../../_resources/website.png)
 
 
 GET request with BurpSuite and web server response :
 
 
-![get.png](../../../../_resources/get.png)
+![get.png](../../_resources/get.png)
 
 
 With the above query, we discovered new paths in the :
@@ -59,16 +59,16 @@ In particulary "/custom.min.js" :
 After several attempts with CyberChef :
 
 
-![cyberchef.png](../../../../_resources/cyberchef.png)
+![cyberchef.png](../../_resources/cyberchef.png)
 
 So we have the answer to the first and second question : 
 
 
-![question1.png](../../../../_resources/question1.png)
+![question1.png](../../_resources/question1.png)
 
 
 
-![question2.png](../../../../_resources/question2.png)
+![question2.png](../../_resources/question2.png)
 
 
 ## Review Old Backup and Unreferenced Files for Sensitive Information
@@ -76,24 +76,24 @@ So we have the answer to the first and second question :
 With our information gathering above, we managed to discover the path “/logs/email_dump.txt”, here's the result :
 
 
-![email-dump.png](../../../../_resources/email-dump.png)
+![email-dump.png](../../_resources/email-dump.png)
 
 
 So we have the answer to the third question : 
 
 
-![question3.png](../../../../_resources/question3.png)
+![question3.png](../../_resources/question3.png)
 
 Then, to answer the fourth question, you had to have passed the TryHackMe SSDLC room [here](https://tryhackme.com/r/room/securesdlc)
 
 
-![question4.png](../../../../_resources/question4.png)
+![question4.png](../../_resources/question4.png)
 
 
 The flag above will be used to answer the fifth question :
 
 
-![question5.png](../../../../_resources/question5.png)
+![question5.png](../../_resources/question5.png)
 
 
 ## Testing for Bypassing Authorization Schema
@@ -101,18 +101,18 @@ The flag above will be used to answer the fifth question :
 Then, to answer the sixth question, we need to dig a little deeper and understand how to use this API, we have our answer with the path “/planning” (you need to enter the flag from question 5 as the password) : 
 
 
-![planning.png](../../../../_resources/planning.png)
+![planning.png](../../_resources/planning.png)
 
 So, if we use this API with ID 5 and BurpSuite Repeater :
 
 
-![email-id-5.png](../../../../_resources/email-id-5.png)
+![email-id-5.png](../../_resources/email-id-5.png)
 
 
 Answer to the sixth question : 
 
 
-![question6.png](../../../../_resources/question6.png)
+![question6.png](../../_resources/question6.png)
 
 
 ## Vertical Privilege Escalation
@@ -120,19 +120,19 @@ Answer to the sixth question :
 To continue, we need to guess the admin account ID, here are the results with BurpSuite Intruder (simple payload from 0 to 9): 
 
 
-![admin-id.png](../../../../_resources/admin-id.png)
+![admin-id.png](../../_resources/admin-id.png)
 
 
 So, answer to the seventh and eighth questions : 
 
 
-![question7.png](../../../../_resources/question7.png)
+![question7.png](../../_resources/question7.png)
 
 
 Now let's connect to the administrator interface (to "/realadmin" path) : 
 
 
-![realadmin-interface.png](../../../../_resources/realadmin-interface.png)
+![realadmin-interface.png](../../_resources/realadmin-interface.png)
 
 
 ## Input Validation Testing
@@ -142,16 +142,16 @@ With this interface, we have a good chance of having an command injection vulner
 Here's a behind-the-scenes look at the “System Owner” query via BurpSuite repeater : 
 
 
-![command-injection-1.png](../../../../_resources/command-injection-1.png)
+![command-injection-1.png](../../_resources/command-injection-1.png)
 
 
 We will therefore modify the “pwd” command with “ls” to list the files in the current directory : 
 
 
-![command-injection-2.png](../../../../_resources/command-injection-2.png)
+![command-injection-2.png](../../_resources/command-injection-2.png)
 
 
-![question9-10.png](../../../../_resources/question9-10.png)
+![question9-10.png](../../_resources/question9-10.png)
 
 
 Now the aim is to restore the site to its initial state. To do this, we need to find the site's main file.
@@ -159,26 +159,26 @@ Now the aim is to restore the site to its initial state. To do this, we need to 
 Go back with the “ls ../” command : 
 
 
-![back-command.png](../../../../_resources/back-command.png)
+![back-command.png](../../_resources/back-command.png)
 
 
 And if we read the “index.php” file, we see the message left by the hacker : 
 
 
-![index-php.png](../../../../_resources/index-php.png)
+![index-php.png](../../_resources/index-php.png)
 
 
 ## Gain Access with reverse shell
 
 Now, with a shell command, we'll try to upload a reverse shell payload :
 
-![reverse-shell](../../../../_resources/reverse-shell.png.png)
+![reverse-shell](../../_resources/reverse-shell.png.png)
 
 
 And execute a listener : 
 
 
-![spawn-tty.png](../../../../_resources/spawn-tty.png)
+![spawn-tty.png](../../_resources/spawn-tty.png)
 
 
 ## Restore website
@@ -189,8 +189,7 @@ We can now remove the undesirable line from the index.php file for restore websi
 And finaly, take flag after restore :
 
 
-![website-restored.png](../../../../_resources/website-restored.png)
+![website-restored.png](../../_resources/website-restored.png)
 
 
-
-![question11.png](../../../../_resources/question11.png)
+![question11.png](../../_resources/question11.png)

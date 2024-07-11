@@ -32,7 +32,7 @@ vsftpd 3.0.3
 ```
 
 
-![vsftpd-version.png](../../../../../_resources/vsftpd-version.png)
+![vsftpd-version.png](../../../_resources/vsftpd-version.png)
 
 
 Task 6) From your scans, what OS type is running on the target?
@@ -60,7 +60,7 @@ Task 9) What is the response code we get for the FTP message 'Login successful'?
 ```
 
 
-![ftp-login.png](../../../../../_resources/ftp-login.png)
+![ftp-login.png](../../../_resources/ftp-login.png)
 
 
 Task 10) There are a couple of commands we can use to list the files and directories available on the FTP server. One is dir. What is the other that is a common way to list files on a Linux system.
@@ -69,7 +69,7 @@ Task 10) There are a couple of commands we can use to list the files and directo
 ls
 ```
 
-![ftp-help.png](../../../../../_resources/ftp-help.png)
+![ftp-help.png](../../../_resources/ftp-help.png)
 
 
 Task 11) What is the command used to download the file we found on the FTP server?
@@ -80,5 +80,4 @@ get
 
 ## Flag
 
-![ftp-get.png](../../../../../_resources/ftp-get.png)
-
+![ftp-get.png](../../../_resources/ftp-get.png)

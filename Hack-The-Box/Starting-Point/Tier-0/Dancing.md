@@ -20,7 +20,7 @@ Task 3) What is the service name for port 445 that came up in our Nmap scan?
 microsoft-ds
 ```
 
-![nmap.png](../../../../../_resources/nmap.png)
+![nmap.png](../../../_resources/nmap.png)
 
 
 Task 4) What is the 'flag' or 'switch' that we can use with the smbclient utility to 'list' the available shares on Dancing?
@@ -30,7 +30,7 @@ Task 4) What is the 'flag' or 'switch' that we can use with the smbclient utilit
 ```
 
 
-![man-smbclient.png](../../../../../_resources/man-smbclient.png)
+![man-smbclient.png](../../../_resources/man-smbclient.png)
 
 
 Task 5) How many shares are there on Dancing?
@@ -40,7 +40,7 @@ Task 5) How many shares are there on Dancing?
 ```
 
 
-![list-shares.png](../../../../../_resources/list-shares.png)
+![list-shares.png](../../../_resources/list-shares.png)
 
 Task 6) What is the name of the share we are able to access in the end with a blank password?
 
@@ -56,4 +56,4 @@ get
 
 ## Flag
 
-![get-flag.png](../../../../../_resources/get-flag.png)
+![get-flag.png](../../../_resources/get-flag.png)

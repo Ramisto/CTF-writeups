@@ -8,7 +8,7 @@ Task 1) Which TCP port is open on the machine?
 6379
 ```
 
-![nmap (3).png](../../../../../_resources/nmap%20%283%29.png)
+![nmap (3).png](../../../_resources/nmap%20%283%29.png)
 
 Task 2) Which service is running on the port that is open on the machine?
 
@@ -37,7 +37,7 @@ Task 5) Which flag is used with the Redis command-line utility to specify the ho
 Install redis-cli here : 
 https://redis.io/docs/getting-started/installation/install-redis-from-source/
 
-![redis-connect.png](../../../../../_resources/redis-connect.png)
+![redis-connect.png](../../../_resources/redis-connect.png)
 
 
 Task 6) Once connected to a Redis server, which command is used to obtain the information and statistics about the Redis server?
@@ -47,7 +47,7 @@ info
 ```
 
 
-![redis-info.png](../../../../../_resources/redis-info.png)
+![redis-info.png](../../../_resources/redis-info.png)
 
 
 Task 7) What is the version of the Redis server being used on the target machine?
@@ -76,14 +76,10 @@ keys *
 ```
 
 
-![redis-keys.png](../../../../../_resources/redis-keys.png)
+![redis-keys.png](../../../_resources/redis-keys.png)
 
 
 ## Flag
 
 
-![flag (1).png](../../../../../_resources/flag%20%281%29.png)
-
-
-
-
+![flag (1).png](../../../_resources/flag%20%281%29.png)
