@@ -2,7 +2,7 @@
 
 ## Table of Contents
 1. [Hack The Box](#hack-the-box)
-2. [Root-Me](#root-me
+2. [Root-Me](#root-me)
 3. [Try Hack Me](#try-hack-me)
 
 
