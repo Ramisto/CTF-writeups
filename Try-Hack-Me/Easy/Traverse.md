@@ -5,7 +5,7 @@
 ### Enumerate Applications on Webserver
 
 
-![nmap-5.png](../../../../_resources/nmap-5.png)
+![nmap-5.png](../../../_resources/nmap-5.png)
 
 
 ```text
