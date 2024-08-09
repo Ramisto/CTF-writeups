@@ -17,17 +17,6 @@
 - [Redeemer](./Hack-The-Box/Starting-Point/Tier-0/Redeemer.md)
 - [Synced](./Hack-The-Box/Starting-Point/Tier-0/Synced.md)
 
-### Root-Me
-
-#### Web Server
-
-- [Insecure Code Management](./Root-Me/Web-Server/Insecure-Code-Management.md)
-- [Java Spring Boot](./Root-Me/Web-Server/Java-Springboot.md)
-- [JWT Revoked Token](./Root-Me/Web-Server/JWT-Revoked-token.md)
-- [JWT Weak Secret](./Root-Me/Web-Server/JWT-Weak-secret.md)
-- [PHP Assert](./Root-Me/Web-Server/PHP-assert.md)
-- [SQL Authentication](./Root-Me/Web-Server/SQL-Authentication.md)
-
 ### Try Hack Me
 
 #### Easy
